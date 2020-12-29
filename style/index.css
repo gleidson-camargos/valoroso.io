@@ -1,0 +1,27 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: black;
+  /*
+  background-image: url(https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/bltbded518020183769/5eb26f5389bac8148a8006cc/agent-background-generic.JPG);
+*/
+}
+body{
+  background-color: #0f1923;
+    background-size: 100%;
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    max-width: 1663px;
+    margin: auto;
+    color:black;
+    align-items: center;
+}
+header{
+  background-color: rgba(0, 0, 255, 0);
+}
+video{
+  top:10px ; left: 50px; position: fixed; z-index: -1;
+}
