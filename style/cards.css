@@ -2,55 +2,54 @@
   width: 1318px;
   height: 502px; 
   margin-top: 50px;
+  margin-left: 12px;
   background-color: rgba(72, 255, 0, 0);
   display: flex;
   justify-content: start;
   align-items: center;
+
+}
+
+
+
+
+img{
+  width: 230px;  opacity: 30%;
+  
+}
+
+img:hover{
+transition-duration:0.2s ;  
+opacity: 100%;
+width: 250px;
+
 }
 
 
 .card{
-  width: 250px;
-  height: 407px;
-  
-  background-color: rgba(9, 54, 255, 0);
-
-
+  margin-left: 15px; 
 }
 
-.imgteste{
-  z-index: 10;
-}
-img{
-  width: 250px;
-  
-}
-img:hover{/*
-filter: opacity(0%);
-transition-duration:2s ;*/
-}
 
 .efeito{ 
+
+ outline: 0;
   height: 30px;
   width: auto;
   height: auto;
   filter: saturate(10%); /* saturação da imagem*/
-  width:250px;
+
   background-color: rgba(10, 34, 141, 0);
+  border-color:red;
+
  
 }
 
 .efeito:hover{
+
   filter: saturate(100%); /* saturação da imagem*/
   background-color: black;
-  transition-duration: 0.5s;
+  transition-duration:0.4s;
+  
 }
 
-.teste{
-  width: 50px;
-  border-radius: 25px;
-  background-color: red;
-  position: fixed;
-  z-index: 50;
-
-}
